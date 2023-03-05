@@ -1,0 +1,6 @@
+{
+  "content": {
+    "h1": "This is a test, not a {{payload}}"
+  },
+  "subject": "Hello"
+}

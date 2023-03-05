@@ -1,0 +1,10 @@
+{
+  "content": {
+    "h1_1": "Welcome to our Website",
+    "p_1": "Hi {{firstName}}!",
+    "p_2": "Thank you for joining.",
+    "a_1_href": "https://example.org/{{locale}}",
+    "p_3": "https://example.org"
+  },
+  "subject": "Welcome to our Website, {{firstName}}!"
+}
