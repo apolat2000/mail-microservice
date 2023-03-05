@@ -15,7 +15,7 @@ describe('templates directory', () => {
     expect(existsSync(join(__dirname, 'templates'))).toBeTruthy();
   });
 
-  // bijection between mail types and folder names under templates
+  // Bijection between mail types and folder names under templates
   it('Mail types include template folders', () => {
     for (const folder of templateFolders) {
       expect(mailTypes.includes(folder as MailType)).toBeTruthy();
@@ -70,7 +70,7 @@ describe('templates directory', () => {
         expect(dict).toHaveProperty('content');
         expect(typeof dict.subject).toBe('string');
         expect(typeof dict.content).toBe('object');
-        // Expect it to have no other propoerty
+        // Expect it to have no other property
         expect(Object.keys(dict).length).toBe(2);
       }
     }
